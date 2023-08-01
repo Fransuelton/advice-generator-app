@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/responsive.css">
-    <title>Exercício HTML + CSS Avançado | App Gerador de Conselhos</title>
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Advice generator app</title>
 </head>
 
 <body>
-    <main class="card">
-        <div class="advice">
-            <h2 class="advice-id">ADVICE #117</h2>
+    <main class="container">
+        <div class="card">
+            <p class="advice-id"></p>
 
-            <p class="advice-description">“It is easy to sit up and take notice, what's difficult is getting up and taking action.”</p>
+            <h1 class="advice-text"></h1>
 
             <picture>
                 <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
                 <img src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
             </picture>
 
-            <button class="advice-update">
+            <button class="change-advice-btn">
                 <img src="./src/images/icon-dice.svg" alt="Dice icon">
             </button>
         </div>
     </main>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
