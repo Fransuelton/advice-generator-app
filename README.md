@@ -1,19 +1,35 @@
-# Exercício CSS Avançado Flexbox - App Gerador de conselhos
+# Advice generator app
 
-## Sobre o Projeto
+![](./design/desktop-design.jpg)
 
-O principal desafio é construir um aplicativo que gere conselhos aleatórios. Nessa primeira etapa do exercício, será realizado apenas a construção do HTML e CSS.
+## ✨ About the project
 
-## Tecnologias Utilizadas
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-<img width="55px" height="40px" title="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img width="55px" height="40px" title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                 
-## Imagens do Projeto
+This challenge was also done in the DevQuest course, where we started with the Advanced CSS module - Flexbox and concluded with the Advanced JavaScript module, using an API.
 
-### Desktop
+## 🎯 The challenge
 
-![](design/desktop-design.jpg)
+Users should be able to:
 
-### Mobile
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
-![](design/mobile-design.jpg)
+## 🛠️ Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- JavaScript
+- [Advice Slip JSON API](https://api.adviceslip.com/) - Advice Generator API
+
+## 🔗 Links
+
+- [Frontend Mentor Solution](https://your-solution-url.com)
+- [Deploy GitHub Pages](https://fransuelton.github.io/advice-generator-app/)
+
+## 🧑‍💻 Author
+
+- LinkedIn - [Fransuelton](https://www.linkedin.com/in/fransuelton/)
+- Frontend Mentor - [Fransuelton](https://www.frontendmentor.io/profile/Fransuelton)
