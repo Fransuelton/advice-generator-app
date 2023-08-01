@@ -1,54 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
-body {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 800;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: var(--background-color);
 }
 
 .card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-
-.advice {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--advice-card-color);
-    border-radius: 10px;
-    margin: 20px;
-    width: 345px;
-}
-
-.advice .advice-id {
-    color: var(--advice-dice-color);
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 15px;
-    margin-top: 30px;
-}
-
-.advice .advice-description {
-    font-size: 23px;
-    padding: 23px;
-    color: var(--text-color);
+    background-color: var(--card-color);
+    box-shadow: 3rem 5rem 8rem 0 rgba(0, 0, 0, 0.10);
+    width: 54rem;
+    height: 33.2rem;
+    border-radius: 1.5rem;
     text-align: center;
+    padding: 4.8rem;
+    position: relative;
 }
 
-.advice .advice-update {
-    width: 60px;
-    height: 60px;
+.card .advice-id {
+    color: var(--advice-id-and-dice-color);
+    letter-spacing: 0.4rem;
+    font-size: 1.3rem;
+    margin-bottom: 2.4rem;
+    text-transform: uppercase;
+}
+
+.card .advice-text {
+    font-size: clamp(2.4rem, 4vw, 2.8rem);
+    color: var(--text-color);
+    letter-spacing: -0.3px;
+    margin-bottom: 4.8rem;
+}
+
+.card .change-advice-btn {
+    cursor: pointer;
+    width: 6.4rem;
+    height: 6.4rem;
     border-radius: 50%;
     border: none;
-    background-color: var(--advice-dice-color);
-    transform: translateY(50%);
+    background-color: var(--advice-id-and-dice-color);
+    position: absolute;
+    bottom: -10%;
 }
 
-.advice .advice-update:hover{
-    color: #53FFAB;
-    cursor: pointer;
-    box-shadow: 0 5px 15px var(--advice-dice-color);
+.card .change-advice-btn:hover {
+    box-shadow: 0 0 4rem 0 var(--advice-id-and-dice-color);
 }
